@@ -1,0 +1,28 @@
+{
+  "name": "chad-scan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chart.js": "^3.5.1",
+    "next": "^12.0.2",
+    "normalize.css": "^8.0.1",
+    "react": "17.0.2",
+    "react-chartjs-2": "^3.0.5",
+    "react-dom": "17.0.2",
+    "recharts": "^2.1.4",
+    "sass": "^1.41.1",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "^12.0.2"
+  }
+}
