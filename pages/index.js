@@ -46,17 +46,17 @@ export async function getServerSideProps() {
   // const resTransactions = await instance.get('/transactions/fee/agg?by=day')
   // const dataTransactions = await resTransactions.data
 
-  // const resStats = await instance.get('/validators')
-  // const dataStats = await resStats.data
+  const resStats = await instance.get('/validators')
+  const dataStats = await resStats.data
 
-  // const resMeta = await instance.get('/meta')
-  // const dataMeta = await resMeta.data
+  const resMeta = await instance.get('/meta')
+  const dataMeta = await resMeta.data
 
   return {
     props: {
       dataTransactions : [],
-      dataStats: [],
-      // dataMeta
+      dataStats,
+      dataMeta
     }
   }
 }

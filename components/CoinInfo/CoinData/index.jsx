@@ -10,8 +10,8 @@ export default function CoinDataComponent() {
     <CoinData>
       <CoinCardComponent title='Block height' body={`${meta?.height || ' '}`} />
       <CoinCardComponent title='Latest validator' body={`${meta?.latest_validator || ' '}`} />
-      <CoinCardComponent title='Block time' body={`${meta?.validator_avg_fee ? Number(meta.validator_avg_fee).toFixed(2) :  ' '}`} />
-      <CoinCardComponent title='Average validator fee' body={`${meta?.block_time || ' '}`} />
+      <CoinCardComponent title='Block time' body={`${meta?.block_time || ' '}`} />
+      <CoinCardComponent title='Average validator fee' body={`${meta?.validator_avg_fee ? Number(meta.validator_avg_fee).toFixed(2) :  ' '}`} />
       <CoinCardComponent title='Active validators' body={`${stats?.length || ' '}`} />
     </CoinData>
   )
