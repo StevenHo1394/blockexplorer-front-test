@@ -1,4 +1,5 @@
 export const CustomTooltip = ({ active, payload, label }) => {
+/*	
     const title = payload[0]?.payload.title
     const value = payload[0]?.payload.value
     let date
@@ -28,6 +29,6 @@ export const CustomTooltip = ({ active, payload, label }) => {
             </div>
         )
     }
-
+*/
     return null
 }
